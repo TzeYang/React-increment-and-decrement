@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400');
+
+html {
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+
+body {
+  background: #ffffff;
+}
+
+.container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #b0d0d3;
+  padding: 50px;
+}
+
+.navBar {
+ text-align: center;
+ margin-bottom: 10px;
+ width: 100%;
+}
+
+.counters {
+  text-align: center;
+}
+
+.value {
+  color: white;
+  margin-right: 2px;
+  padding: 10px;
+}
+
+.btn {
+  height: 100%;
+  width: 20px;
+  background-color: #545a62;
+  border: none;
+  outline: none;
+  color: #ccb888;
+  padding: 10px;
+  margin: 10px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.btnDelete {
+  height: 100%;
+  width: 90px;
+  border: none;
+  outline: none;
+  padding: 9px;
+  margin: 10px;
+  color: #ccb888;
+  background-color: #545a62;
+  cursor: pointer;
+}
+
+.btnNavBar {
+  width: 100%;
+  margin-bottom: 10px;
+  border: none;
+  padding: 9px;
+  background-color: #545a62;
+  outline: none;
+  color: white;
+  cursor: pointer;
+}
+
+.btnNavBar:not(:last-child) {
+  margin-right: 10px;
+}
+
+.text {
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.sym {
+  width: 10px;
+  height: 5px;
+  text-align: center;
+  line-height: 2px;
+  color: white;
+}
